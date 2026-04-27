@@ -53,6 +53,12 @@ function printNumericDigit(digit: string){
     }
 }
 
+function printOperator(operator: string){
+    if (checkScreen() && powerState()) {
+        screen.textContent += operator;
+    }
+}
+
 // lecture de l'écran
 
-export { toggleScreen, initScreen, printNumericDigit };
+export { toggleScreen, initScreen, printNumericDigit, printOperator };

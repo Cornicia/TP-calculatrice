@@ -11,9 +11,10 @@ function togglePower() {
     return isOn;
 }
 
+// TODO: Implémenter l'écoute des boutons d'opérateurs
+
 // Gérer l'etat de la mémoire
 
 // Gérer l'etat de la pile
-
 
 export { togglePower, powerState };
